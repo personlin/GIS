@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>NPPs</name>
+	<open>1</open>
+	<Placemark>
+		<name>NPP1</name>
+		<ExtendedData>
+			<SchemaData schemaUrl="#NPPs">
+				<SimpleData name="Site">核一廠</SimpleData>
+				<SimpleData name="Lon_X">121.5874972</SimpleData>
+				<SimpleData name="Lat_Y">25.28615833</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>121.5874972050692,25.28615828898479,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>NPP3</name>
+		<ExtendedData>
+			<SchemaData schemaUrl="#NPPs">
+				<SimpleData name="Site">核三廠</SimpleData>
+				<SimpleData name="Lon_X">120.7516389</SimpleData>
+				<SimpleData name="Lat_Y">21.95831389</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>120.7516389010446,21.95831385344561,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>NPP2</name>
+		<ExtendedData>
+			<SchemaData schemaUrl="#NPPs">
+				<SimpleData name="Site">核二廠</SimpleData>
+				<SimpleData name="Lon_X">121.6626</SimpleData>
+				<SimpleData name="Lat_Y">25.20282778</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>121.6626000205757,25.20282782241921,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>NPP4</name>
+		<ExtendedData>
+			<SchemaData schemaUrl="#NPPs">
+				<SimpleData name="Site">核四廠</SimpleData>
+				<SimpleData name="Lon_X">121.92482</SimpleData>
+				<SimpleData name="Lat_Y">25.03867</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Point>
+			<coordinates>121.9248200023981,25.03867000806524,0</coordinates>
+		</Point>
+	</Placemark>
+	<Schema name="NPPs" id="NPPs">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Site" type="string"></SimpleField>
+	<SimpleField name="Lon_X" type="float"></SimpleField>
+	<SimpleField name="Lat_Y" type="float"></SimpleField>
+</Schema>
+</Folder>
+</kml>
