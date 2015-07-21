@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "Name": "NPP1", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ 121.587497, 25.286158, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "NPP3", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ 120.751639, 21.958314, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "NPP2", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ 121.662600, 25.202828, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "NPP4", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ 121.924820, 25.038670, 0.000000 ] } }
+
+]
+}
